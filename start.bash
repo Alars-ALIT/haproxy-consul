@@ -28,6 +28,3 @@ if [[ -f "$OVERRIDE/$CONFIG" ]]; then
   ln -s "$OVERRIDE/$CONFIG" "$CONFIG"
 fi
 
-#haproxy -fV /etc/haproxy/haproxy.cfg -p "$PIDFILE"
-#/etc/init.d/haproxy start
-
